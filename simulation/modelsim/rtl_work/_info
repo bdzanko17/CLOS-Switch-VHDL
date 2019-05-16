@@ -1,0 +1,190 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\njobs\Desktop\Projekat_KS\clos\simulation\modelsim
+Eclos
+Z1 w1558026903
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\njobs\Desktop\Projekat_KS\clos\simulation\modelsim
+Z6 8C:/Users/njobs/Desktop/Projekat_KS/clos/clos.vhd
+Z7 FC:/Users/njobs/Desktop/Projekat_KS/clos/clos.vhd
+l0
+L5
+VFmIjX0RO^_?470bDlfU5j0
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1558027155.821000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/njobs/Desktop/Projekat_KS/clos/clos.vhd|
+Z11 !s107 C:/Users/njobs/Desktop/Projekat_KS/clos/clos.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 T?cFQO_Y;81cmU]JiJ@U`2
+!i10b 1
+Aarch_clos
+R2
+R3
+R4
+DEx4 work 4 clos 0 22 FmIjX0RO^_?470bDlfU5j0
+l58
+L25
+VP5Qfem<6BLkIL=CQI1VMK0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 bkLnLT_nTEV0ROhaMb3Q70
+!i10b 1
+Eclos_testbench
+Z14 w1558024889
+R2
+R3
+R4
+R5
+Z15 8C:/Users/njobs/Desktop/Projekat_KS/clos/simulation/modelsim/clos_testbench.vhd
+Z16 FC:/Users/njobs/Desktop/Projekat_KS/clos/simulation/modelsim/clos_testbench.vhd
+l0
+L5
+V8n9SPF5knN>^gMBFCC^=M2
+!s100 bf7C5X10X7e@YRG=]a5T`2
+R8
+32
+!i10b 1
+Z17 !s108 1558027171.827000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/njobs/Desktop/Projekat_KS/clos/simulation/modelsim/clos_testbench.vhd|
+Z19 !s107 C:/Users/njobs/Desktop/Projekat_KS/clos/simulation/modelsim/clos_testbench.vhd|
+Z20 o-work work -O0
+R13
+Aarch_clos_testbench
+R2
+R3
+R4
+DEx4 work 14 clos_testbench 0 22 8n9SPF5knN>^gMBFCC^=M2
+l31
+L8
+VMTmWGT;[@`Mc6^2iCTIlG3
+!s100 E;<1SK]QgJgbHOA<cdDGf0
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R20
+R13
+Eswitch_2x2
+Z21 w1558026123
+R2
+R3
+R4
+R5
+Z22 8C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x2.vhd
+Z23 FC:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x2.vhd
+l0
+L5
+V@n3O?2J4]R6nGVMedh9O[3
+R8
+31
+Z24 !s108 1558027157.333000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x2.vhd|
+Z26 !s107 C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x2.vhd|
+R12
+R13
+!s100 8:?o]m<a6d<U3JR>jbm0a2
+!i10b 1
+Aarch_switch_2x2
+R2
+R3
+R4
+DEx4 work 10 switch_2x2 0 22 @n3O?2J4]R6nGVMedh9O[3
+l16
+L15
+VYnOfI9jiTiZj[I30IjZBV2
+R8
+31
+R24
+R25
+R26
+R12
+R13
+!s100 TKHSlo;=cJJzIb@9i^MNV0
+!i10b 1
+Eswitch_2x3
+Z27 w1558026237
+R2
+R3
+R4
+R5
+Z28 8C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x3.vhd
+Z29 FC:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x3.vhd
+l0
+L5
+Vf6_jBGaiGD9>@WSF_EQd=2
+R8
+31
+Z30 !s108 1558027156.546000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x3.vhd|
+Z32 !s107 C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x3.vhd|
+R12
+R13
+!s100 NU^kDfQn_3<iCB^E[kKl31
+!i10b 1
+Aarch_switch_2x3
+R2
+R3
+R4
+DEx4 work 10 switch_2x3 0 22 f6_jBGaiGD9>@WSF_EQd=2
+l17
+L16
+V:l<f;iWcf;WlQUhYjRbJQ3
+R8
+31
+R30
+R31
+R32
+R12
+R13
+!s100 :JMI^[KcR9GbSa=ChR7X_2
+!i10b 1
+Eswitch_3x2
+Z33 w1558026616
+R2
+R3
+R4
+R5
+Z34 8C:/Users/njobs/Desktop/Projekat_KS/clos/switch_3x2.vhd
+Z35 FC:/Users/njobs/Desktop/Projekat_KS/clos/switch_3x2.vhd
+l0
+L5
+VW]@LYM<2QPb2e?K>loN0@3
+R8
+31
+Z36 !s108 1558027157.795000
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/njobs/Desktop/Projekat_KS/clos/switch_3x2.vhd|
+Z38 !s107 C:/Users/njobs/Desktop/Projekat_KS/clos/switch_3x2.vhd|
+R12
+R13
+!s100 LcHd;mYAIVQF7fU6jD;IX3
+!i10b 1
+Aarch_switch_3x2
+R2
+R3
+R4
+DEx4 work 10 switch_3x2 0 22 W]@LYM<2QPb2e?K>loN0@3
+l17
+L16
+V9MH[[WLUCBRUP<GE>KU1C0
+R8
+31
+R36
+R37
+R38
+R12
+R13
+!s100 i2?6WXi_cYD:YWi@7khDX0
+!i10b 1
