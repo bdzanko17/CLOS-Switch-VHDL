@@ -1,9 +1,10 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/njobs/Desktop/Projekat_KS/clos/clos.vhd
-source_file = 1, C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x3.vhd
-source_file = 1, C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x2.vhd
-source_file = 1, C:/Users/njobs/Desktop/Projekat_KS/clos/switch_3x2.vhd
-source_file = 1, C:/Users/njobs/Desktop/Projekat_KS/clos/db/clos.cbx.xml
+source_file = 1, C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd
+source_file = 1, C:/Users/njobs/Desktop/PROJEKT/clos.vhd
+source_file = 1, C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd
+source_file = 1, C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd
+source_file = 1, C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd
+source_file = 1, C:/Users/njobs/Desktop/PROJEKT/db/clos.cbx.xml
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
