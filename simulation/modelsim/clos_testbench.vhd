@@ -50,15 +50,17 @@ BEGIN
   stim: PROCESS
   BEGIN
     s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "000"; s_C12 <= "001" ; s_C21 <= '0'; s_C22 <= '0';s_C23 <= '0'; s_C31 <= "000"; s_C32 <= "001"; WAIT FOR 20ns;
-    
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111"; s_C11 <= "000"; s_C12 <= "001" ; s_C21 <= '0'; s_C22 <= '0';s_C23 <= '0'; s_C31 <= "000"; s_C32 <= "100"; WAIT FOR 20ns;
 	 WAIT;
   END PROCESS;
   
   verif: PROCESS
     BEGIN 
       WAIT FOR 10ns;
-      ASSERT(s_Y1 = "01010101" AND s_Y2 = "10101010" AND s_Y3 = "11110000" AND s_Y3 = "11111111") REPORT "GRESKA" SEVERITY error; WAIT FOR 20ns;
-      WAIT;
+      ASSERT(s_Y1 = "01010101" AND s_Y2 = "10101010" AND s_Y3 = "11110000" AND s_Y4 = "11111111") REPORT "GRESKA" SEVERITY error; WAIT FOR 20ns;
+      ASSERT(s_Y1 = "01010101" AND s_Y2 = "10101010" AND s_Y3 = "11111111" AND s_Y4 = "11110000") REPORT "GRESKA" SEVERITY error; WAIT FOR 20ns;
+
+		WAIT;
     END PROCESS;
   END ARCHITECTURE;
   

@@ -11,7 +11,7 @@
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/njobs/Desktop/Projekat_KS/clos/clos.vhd}
+# vcom -93 -work work {C:/Users/njobs/Desktop/PROJEKT/clos.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -19,7 +19,7 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity clos
 # -- Compiling architecture arch_clos of clos
-# vcom -93 -work work {C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x3.vhd}
+# vcom -93 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -27,7 +27,7 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity switch_2x3
 # -- Compiling architecture arch_switch_2x3 of switch_2x3
-# vcom -93 -work work {C:/Users/njobs/Desktop/Projekat_KS/clos/switch_2x2.vhd}
+# vcom -93 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -35,7 +35,7 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity switch_2x2
 # -- Compiling architecture arch_switch_2x2 of switch_2x2
-# vcom -93 -work work {C:/Users/njobs/Desktop/Projekat_KS/clos/switch_3x2.vhd}
+# vcom -93 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd}
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -44,7 +44,7 @@
 # -- Compiling entity switch_3x2
 # -- Compiling architecture arch_switch_3x2 of switch_3x2
 # 
-vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/Projekat_KS/clos/simulation/modelsim/clos_testbench.vhd
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -52,9 +52,26 @@ vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/Projekat_KS/clos/simu
 # -- Loading package NUMERIC_STD
 # -- Compiling entity clos_testbench
 # -- Compiling architecture arch_clos_testbench of clos_testbench
-# ** Warning: [4] C:/Users/njobs/Desktop/Projekat_KS/clos/simulation/modelsim/clos_testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/Projekat_KS/clos/simulation/modelsim/clos_testbench.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/Projekat_KS/clos/simulation/modelsim/clos_testbench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(54): near "WAIT": expecting ';'
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(65): VHDL Compiler exiting
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity clos_testbench
+# -- Compiling architecture arch_clos_testbench of clos_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 vsim rtl_work.clos_testbench
 # vsim rtl_work.clos_testbench 
 # Loading std.standard
@@ -66,6 +83,7 @@ vsim rtl_work.clos_testbench
 # Loading rtl_work.switch_2x3(arch_switch_2x3)
 # Loading rtl_work.switch_2x2(arch_switch_2x2)
 # Loading rtl_work.switch_3x2(arch_switch_3x2)
+add wave -position end  sim:/clos_testbench/s_C22
 add wave -position end  sim:/clos_testbench/s_X1
 add wave -position end  sim:/clos_testbench/s_X2
 add wave -position end  sim:/clos_testbench/s_X3
@@ -75,5 +93,3 @@ add wave -position end  sim:/clos_testbench/s_Y2
 add wave -position end  sim:/clos_testbench/s_Y3
 add wave -position end  sim:/clos_testbench/s_Y4
 run
-# ** Error: GRESKA
-#    Time: 10 ns  Iteration: 0  Instance: /clos_testbench

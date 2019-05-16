@@ -1,5 +1,5 @@
 Analysis & Synthesis report for clos
-Thu May 16 20:22:17 2019
+Thu May 16 20:45:56 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu May 16 20:22:17 2019           ;
+; Analysis & Synthesis Status        ; Successful - Thu May 16 20:45:56 2019           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; clos                                            ;
 ; Top-level Entity Name              ; clos                                            ;
@@ -250,7 +250,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -260,7 +260,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu May 16 20:22:13 2019
+    Info: Processing started: Thu May 16 20:45:50 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off clos -c clos
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file simulation/modelsim/clos_testbench.vhd
@@ -343,9 +343,9 @@ Info (21057): Implemented 243 device resources after synthesis - the final resou
     Info (21059): Implemented 32 output pins
     Info (21061): Implemented 164 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 55 warnings
-    Info: Peak virtual memory: 4668 megabytes
-    Info: Processing ended: Thu May 16 20:22:17 2019
-    Info: Elapsed time: 00:00:04
+    Info: Peak virtual memory: 4661 megabytes
+    Info: Processing ended: Thu May 16 20:45:56 2019
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:03
 
 
