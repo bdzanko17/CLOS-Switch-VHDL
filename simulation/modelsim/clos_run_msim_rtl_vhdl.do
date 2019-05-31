@@ -5,8 +5,8 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/njobs/Desktop/PROJEKT/clos.vhd}
-vcom -93 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd}
-vcom -93 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd}
-vcom -93 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd}
+vcom -2008 -work work {C:/Users/njobs/Desktop/PROJEKT/clos.vhd}
+vcom -2008 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd}
+vcom -2008 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd}
+vcom -2008 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd}
 

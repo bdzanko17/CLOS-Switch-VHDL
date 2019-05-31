@@ -13,13 +13,13 @@ Z6 8C:/Users/njobs/Desktop/PROJEKT/clos.vhd
 Z7 FC:/Users/njobs/Desktop/PROJEKT/clos.vhd
 l0
 L5
-VFmIjX0RO^_?470bDlfU5j0
+Vb>o_8W?z]Qj0]0a4F7d4l1
 Z8 OV;C;10.1d;51
-31
-Z9 !s108 1558032743.213000
-Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/njobs/Desktop/PROJEKT/clos.vhd|
+33
+Z9 !s108 1559331602.835000
+Z10 !s90 -reportprogress|300|-2008|-work|work|C:/Users/njobs/Desktop/PROJEKT/clos.vhd|
 Z11 !s107 C:/Users/njobs/Desktop/PROJEKT/clos.vhd|
-Z12 o-93 -work work -O0
+Z12 o-2008 -work work -O0
 Z13 tExplicit 1
 !s100 T?cFQO_Y;81cmU]JiJ@U`2
 !i10b 1
@@ -27,12 +27,12 @@ Aarch_clos
 R2
 R3
 R4
-DEx4 work 4 clos 0 22 FmIjX0RO^_?470bDlfU5j0
+DEx4 work 4 clos 0 22 b>o_8W?z]Qj0]0a4F7d4l1
 l62
 L25
-VP5Qfem<6BLkIL=CQI1VMK0
+Vo^eGJ3GdNC07l?z^<OmM^0
 R8
-31
+33
 R9
 R10
 R11
@@ -40,59 +40,22 @@ R12
 R13
 !s100 4nNo6nQ:IoS9co>GFO4SN1
 !i10b 1
-Eclos_testbench
-Z14 w1558032788
-R2
-R3
-R4
-R5
-Z15 8C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd
-Z16 FC:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd
-l0
-L5
-V8n9SPF5knN>^gMBFCC^=M2
-!s100 bf7C5X10X7e@YRG=]a5T`2
-R8
-32
-!i10b 1
-Z17 !s108 1558032795.202000
-Z18 !s90 -reportprogress|300|-work|work|C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd|
-Z19 !s107 C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd|
-Z20 o-work work -O0
-R13
-Aarch_clos_testbench
-R2
-R3
-R4
-DEx4 work 14 clos_testbench 0 22 8n9SPF5knN>^gMBFCC^=M2
-l31
-L8
-VkTB:g=`<T]F[l?_Yl?@Jo3
-!s100 Z4Rc=S1XU7d@M_Zkc_W_;0
-R8
-32
-!i10b 1
-R17
-R18
-R19
-R20
-R13
 Eswitch_2x2
 R1
 R2
 R3
 R4
 R5
-Z21 8C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd
-Z22 FC:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd
+Z14 8C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd
+Z15 FC:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd
 l0
 L5
-V@n3O?2J4]R6nGVMedh9O[3
+VeSNCe7Gd4zH@5n@4b_4:=0
 R8
-31
-Z23 !s108 1558032744.338000
-Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd|
-Z25 !s107 C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd|
+33
+Z16 !s108 1559331604.226000
+Z17 !s90 -reportprogress|300|-2008|-work|work|C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd|
+Z18 !s107 C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd|
 R12
 R13
 !s100 8:?o]m<a6d<U3JR>jbm0a2
@@ -101,19 +64,56 @@ Aarch_switch_2x2
 R2
 R3
 R4
-DEx4 work 10 switch_2x2 0 22 @n3O?2J4]R6nGVMedh9O[3
+DEx4 work 10 switch_2x2 0 22 eSNCe7Gd4zH@5n@4b_4:=0
 l16
 L15
-VYnOfI9jiTiZj[I30IjZBV2
+VmVYN]@Hogk2hJ=HL1dz4Q1
 R8
-31
-R23
-R24
-R25
+33
+R16
+R17
+R18
 R12
 R13
 !s100 TKHSlo;=cJJzIb@9i^MNV0
 !i10b 1
+Eswitch_2x2_testbench
+Z19 w1559331624
+R2
+R3
+R4
+R5
+Z20 8C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd
+Z21 FC:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd
+l0
+L5
+VOdOHl`k[0[H50SOQm_BJ11
+!s100 JePSIU;`3fgRnzB>Q8@z_1
+R8
+32
+!i10b 1
+Z22 !s108 1559331631.732000
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd|
+Z24 !s107 C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd|
+Z25 o-work work -O0
+R13
+Aarch_switch_2x2_testbench_testbench
+R2
+R3
+R4
+DEx4 work 20 switch_2x2_testbench 0 22 OdOHl`k[0[H50SOQm_BJ11
+l20
+L8
+V=N^?9^MKZ8CniQa<^D`@D3
+!s100 PO]F:7m?kQz[@kgc;B^Cz1
+R8
+32
+!i10b 1
+R22
+R23
+R24
+R25
+R13
 Eswitch_2x3
 Z26 w1558030929
 R2
@@ -124,11 +124,11 @@ Z27 8C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd
 Z28 FC:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd
 l0
 L5
-Vf6_jBGaiGD9>@WSF_EQd=2
+VfGBAQIFlSocbjYhK[b<Oa1
 R8
-31
-Z29 !s108 1558032743.874000
-Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd|
+33
+Z29 !s108 1559331603.403000
+Z30 !s90 -reportprogress|300|-2008|-work|work|C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd|
 Z31 !s107 C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd|
 R12
 R13
@@ -138,12 +138,12 @@ Aarch_switch_2x3
 R2
 R3
 R4
-DEx4 work 10 switch_2x3 0 22 f6_jBGaiGD9>@WSF_EQd=2
+DEx4 work 10 switch_2x3 0 22 fGBAQIFlSocbjYhK[b<Oa1
 l19
 L16
-VA:d>jH@iiRQi6X4YZN8H;2
+V1De@ZiQE<I[8W00hQ?]iU2
 R8
-31
+33
 R29
 R30
 R31
@@ -161,11 +161,11 @@ Z32 8C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd
 Z33 FC:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd
 l0
 L5
-VW]@LYM<2QPb2e?K>loN0@3
+VR_4C2Xe`Bb2=^WTA?KOgI1
 R8
-31
-Z34 !s108 1558032744.784000
-Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd|
+33
+Z34 !s108 1559331604.750000
+Z35 !s90 -reportprogress|300|-2008|-work|work|C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd|
 Z36 !s107 C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd|
 R12
 R13
@@ -175,12 +175,12 @@ Aarch_switch_3x2
 R2
 R3
 R4
-DEx4 work 10 switch_3x2 0 22 W]@LYM<2QPb2e?K>loN0@3
+DEx4 work 10 switch_3x2 0 22 R_4C2Xe`Bb2=^WTA?KOgI1
 l19
 L16
-V=4S=kHbBfTWlXaLCIRKZ]1
+V6`HL7egAKJMD32Jb<22G[1
 R8
-31
+33
 R34
 R35
 R36
