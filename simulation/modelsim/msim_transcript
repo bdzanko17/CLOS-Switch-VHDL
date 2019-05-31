@@ -44,48 +44,30 @@
 # -- Compiling entity switch_3x2
 # -- Compiling architecture arch_switch_3x2 of switch_3x2
 # 
-vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity switch_2x2_testbench
-# -- Compiling architecture arch_switch_2x2_testbench_testbench of switch_2x2_testbench
-# ** Error: C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(21): (vcom-1141) Identifier "clos" does not identify a component declaration.
-# 
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Error: C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(47): VHDL Compiler exiting
-vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd
-# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity switch_2x2_testbench
-# -- Compiling architecture arch_switch_2x2_testbench_testbench of switch_2x2_testbench
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-vsim rtl_work.switch_2x2_testbench
-# vsim rtl_work.switch_2x2_testbench 
+# -- Compiling entity switch_2x3_testbench
+# -- Compiling architecture arch_switch_2x2_testbench_testbench of switch_2x3_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+vsim rtl_work.switch_2x3_testbench
+# vsim rtl_work.switch_2x3_testbench 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading rtl_work.switch_2x2_testbench(arch_switch_2x2_testbench_testbench)
-# Loading rtl_work.switch_2x2(arch_switch_2x2)
-add wave -position end  sim:/switch_2x2_testbench/S_s
-add wave -position end  sim:/switch_2x2_testbench/s_X1
-add wave -position end  sim:/switch_2x2_testbench/s_X2
-add wave -position end  sim:/switch_2x2_testbench/s_Y1
-add wave -position end  sim:/switch_2x2_testbench/s_Y2
+# Loading rtl_work.switch_2x3_testbench(arch_switch_2x2_testbench_testbench)
+# Loading rtl_work.switch_2x3(arch_switch_2x3)
+add wave -position end  sim:/switch_2x3_testbench/HighImpedance
+add wave -position end  sim:/switch_2x3_testbench/S_s
+add wave -position end  sim:/switch_2x3_testbench/s_X1
+add wave -position end  sim:/switch_2x3_testbench/s_X2
+add wave -position end  sim:/switch_2x3_testbench/s_Y1
+add wave -position end  sim:/switch_2x3_testbench/s_Y2
+add wave -position end  sim:/switch_2x3_testbench/s_Y3
 run
-# ** Error: GRESKA 2
-#    Time: 30 ns  Iteration: 0  Instance: /switch_2x2_testbench
