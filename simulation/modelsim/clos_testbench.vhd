@@ -73,8 +73,37 @@ BEGIN
     s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111";  s_C11 <= "000"; s_C12 <= "011" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "010"; s_C32 <= "101"; WAIT FOR 20ns;
    -- X1 NA Y2 X2 NA Y4M X3 NA Y3 I X4 NA Y1
     s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111";  s_C11 <= "000"; s_C12 <= "101" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "010"; s_C32 <= "101"; WAIT FOR 20ns;
-	 WAIT;
-  END PROCESS;
+	 
+
+--X1 NA Y3 X2 NA Y1 X3 NA Y2 X4 NA Y4
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "011" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "000"; s_C32 <= "011"; WAIT FOR 20ns;
+--X1 NA Y3 X2 NA Y1 X3 NA Y4 X4 NA Y2
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "101" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "010"; s_C32 <= "011"; WAIT FOR 20ns;
+--X1 NA Y3 X2 NA Y2 X3 NA Y1 X4 NA Y4
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "011" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "010"; s_C32 <= "011"; WAIT FOR 20ns;
+--X1 NA Y3 X2 NA Y2 X3 NA Y4 X4 NA Y1
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "011"; s_C12 <= "000" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "011"; s_C32 <= "010"; WAIT FOR 20ns;
+--X1 NA Y3 X2 NA Y4 X3 NA Y1 X4 NA Y2
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "000" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "000"; s_C32 <= "010"; WAIT FOR 20ns;
+--X1 NA Y3 X2 NA Y4 X3 NA Y2 X4 NA Y1
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "000" ; s_C21 <= '1'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "010"; s_C32 <= "010"; WAIT FOR 20ns;
+
+--X1 NA Y4 X2 NA Y1 X3 NA Y2 X4 NA Y3
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "011" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "000"; s_C32 <= "101"; WAIT FOR 20ns;
+--X1 NA Y4 X2 NA Y1 X3 NA Y3 X4 NA Y2
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "000" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "000"; s_C32 <= "000"; WAIT FOR 20ns;
+--X1 NA Y4 X2 NA Y2 X3 NA Y1 X4 NA Y3
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "011" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "010"; s_C32 <= "101"; WAIT FOR 20ns;
+--X1 NA Y4 X2 NA Y2 X3 NA Y3 X4 NA Y1
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "010"; s_C12 <= "000" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '0'; s_C31 <= "010"; s_C32 <= "000"; WAIT FOR 20ns;
+--X1 NA Y4 X2 NA Y3 X3 NA Y1 X4 NA Y2
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "011"; s_C12 <= "011" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '1'; s_C31 <= "011"; s_C32 <= "101"; WAIT FOR 20ns;
+--X1 NA Y4 X2 NA Y3 X3 NA Y2 X4 NA Y1
+    s_X1 <= "01010101"; s_X2 <= "10101010" ; s_X3 <= "11110000" ; s_X4 <= "11111111" ; s_C11 <= "011"; s_C12 <= "011" ; s_C21 <= '0'; s_C22 <= '1';s_C23 <= '1'; s_C31 <= "101"; s_C32 <= "101"; WAIT FOR 20ns;
+
+
+WAIT;
+END PROCESS;
   
   verif: PROCESS
     BEGIN 
@@ -91,6 +120,20 @@ BEGIN
 		  ASSERT(s_Y1 = "11111111" AND s_Y2 = "01010101" AND s_Y3 = "10101010" AND s_Y4 = "11110000") REPORT "GRESKA 10" SEVERITY error; WAIT FOR 20ns; --10
 		  ASSERT(s_Y1 = "11110000" AND s_Y2 = "01010101" AND s_Y3 = "11111111" AND s_Y4 = "10101010") REPORT "GRESKA 11" SEVERITY error; WAIT FOR 20ns; --11
 		  ASSERT(s_Y1 = "11111111" AND s_Y2 = "01010101" AND s_Y3 = "11110000" AND s_Y4 = "10101010") REPORT "GRESKA 12" SEVERITY error; WAIT FOR 20ns; --12
+	ASSERT(s_Y1 = "10101010" AND s_Y2 = "11110000" AND s_Y3 = "01010101" AND s_Y4 = "11111111") REPORT "GRESKA 13" SEVERITY error; WAIT FOR 20ns; --13
+	ASSERT(s_Y1 = "10101010" AND s_Y2 = "11111111" AND s_Y3 = "01010101" AND s_Y4 = "11110000") REPORT "GRESKA 14" SEVERITY error; WAIT FOR 20ns; --14
+	ASSERT(s_Y1 = "11110000" AND s_Y2 = "10101010" AND s_Y3 = "01010101" AND s_Y4 = "11111111") REPORT "GRESKA 15" SEVERITY error; WAIT FOR 20ns; --15
+	ASSERT(s_Y1 = "11111111" AND s_Y2 = "10101010" AND s_Y3 = "01010101" AND s_Y4 = "11110000") REPORT "GRESKA 16" SEVERITY error; WAIT FOR 20ns; --16
+	ASSERT(s_Y1 = "11110000" AND s_Y2 = "11111111" AND s_Y3 = "01010101" AND s_Y4 = "10101010") REPORT "GRESKA 17" SEVERITY error; WAIT FOR 20ns; --17
+	ASSERT(s_Y1 = "11111111" AND s_Y2 = "11110000" AND s_Y3 = "01010101" AND s_Y4 = "10101010") REPORT "GRESKA 18" SEVERITY error; WAIT FOR 20ns; --18
+		ASSERT(s_Y1 = "10101010" AND s_Y2 = "11110000" AND s_Y3 = "11111111" AND s_Y4 = "01010101") REPORT "GRESKA 19" SEVERITY error; WAIT FOR 20ns; --19
+		ASSERT(s_Y1 = "10101010" AND s_Y2 = "11111111" AND s_Y3 = "11110000" AND s_Y4 = "01010101") REPORT "GRESKA 20" SEVERITY error; WAIT FOR 20ns; --20
+		ASSERT(s_Y1 = "11110000" AND s_Y2 = "10101010" AND s_Y3 = "11111111" AND s_Y4 = "01010101") REPORT "GRESKA 21" SEVERITY error; WAIT FOR 20ns; --21
+		ASSERT(s_Y1 = "11111111" AND s_Y2 = "10101010" AND s_Y3 = "11110000" AND s_Y4 = "01010101") REPORT "GRESKA 22" SEVERITY error; WAIT FOR 20ns; --22
+		ASSERT(s_Y1 = "11110000" AND s_Y2 = "11111111" AND s_Y3 = "10101010" AND s_Y4 = "01010101") REPORT "GRESKA 23" SEVERITY error; WAIT FOR 20ns; --23
+		ASSERT(s_Y1 = "11111111" AND s_Y2 = "11110000" AND s_Y3 = "10101010" AND s_Y4 = "01010101") REPORT "GRESKA 24" SEVERITY error; WAIT FOR 20ns; --24
+
+
 			WAIT;
     END PROCESS;
   END ARCHITECTURE;

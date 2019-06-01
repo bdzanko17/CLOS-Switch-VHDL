@@ -5,7 +5,7 @@ USE IEEE.NUMERIC_STD.ALL;
 ENTITY switch_2x3_testbench IS
 END switch_2x3_testbench;
 
-ARCHITECTURE arch_switch_2x2_testbench_testbench OF switch_2x3_testbench IS
+ARCHITECTURE arch_switch_2x3_testbench_testbench OF switch_2x3_testbench IS
   COMPONENT switch_2x3 IS
     PORT	 (
 	x: IN STD_LOGIC_VECTOR(7 downto 0);

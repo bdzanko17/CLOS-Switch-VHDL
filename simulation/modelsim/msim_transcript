@@ -44,30 +44,64 @@
 # -- Compiling entity switch_3x2
 # -- Compiling architecture arch_switch_3x2 of switch_3x2
 # 
-vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity switch_2x3_testbench
-# -- Compiling architecture arch_switch_2x2_testbench_testbench of switch_2x3_testbench
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-vsim rtl_work.switch_2x3_testbench
-# vsim rtl_work.switch_2x3_testbench 
+# -- Compiling entity switch_3x2_testbench
+# -- Compiling architecture arch_switch_3x2_testbench_testbench of switch_3x2_testbench
+# ** Error: C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(37): near "=": expecting <= or :=
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(48): VHDL Compiler exiting
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_3x2_testbench
+# -- Compiling architecture arch_switch_3x2_testbench_testbench of switch_3x2_testbench
+# ** Error: C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(37): near "s_X3": expecting ';'
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(48): VHDL Compiler exiting
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_3x2_testbench
+# -- Compiling architecture arch_switch_3x2_testbench_testbench of switch_3x2_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+vsim rtl_work.switch_3x2_testbench
+# vsim rtl_work.switch_3x2_testbench 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading rtl_work.switch_2x3_testbench(arch_switch_2x2_testbench_testbench)
-# Loading rtl_work.switch_2x3(arch_switch_2x3)
-add wave -position end  sim:/switch_2x3_testbench/HighImpedance
-add wave -position end  sim:/switch_2x3_testbench/S_s
-add wave -position end  sim:/switch_2x3_testbench/s_X1
-add wave -position end  sim:/switch_2x3_testbench/s_X2
-add wave -position end  sim:/switch_2x3_testbench/s_Y1
-add wave -position end  sim:/switch_2x3_testbench/s_Y2
-add wave -position end  sim:/switch_2x3_testbench/s_Y3
+# Loading rtl_work.switch_3x2_testbench(arch_switch_3x2_testbench_testbench)
+# Loading rtl_work.switch_3x2(arch_switch_3x2)
+add wave -position end  sim:/switch_3x2_testbench/S_s
+add wave -position end  sim:/switch_3x2_testbench/s_X1
+add wave -position end  sim:/switch_3x2_testbench/s_X2
+add wave -position end  sim:/switch_3x2_testbench/s_X3
+add wave -position end  sim:/switch_3x2_testbench/s_Y1
+add wave -position end  sim:/switch_3x2_testbench/s_Y2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: njobs  Hostname: DESKTOP-S8VCI0F  ProcessID: 7768
+# 
+#           Attempting to use alternate WLF file "./wlft7s8bx3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft7s8bx3
+# 
 run
