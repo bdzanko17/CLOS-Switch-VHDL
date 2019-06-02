@@ -5,7 +5,7 @@ USE IEEE.NUMERIC_STD.ALL;
 ENTITY switch_3x2_testbench IS
 END switch_3x2_testbench;
 
-ARCHITECTURE arch_switch_3x2_testbench_testbench OF switch_3x2_testbench IS
+ARCHITECTURE arch_switch_3x2_testbench OF switch_3x2_testbench IS
   COMPONENT switch_3x2 IS
     PORT	 (
 	U: IN STD_LOGIC_VECTOR(7 downto 0);
@@ -33,8 +33,14 @@ BEGIN
   stim: PROCESS
   BEGIN
 
-	--Biram ulaz U na X i R na Y
+	
+	s_X1 <= "00000011"; s_X2 <= "11001111"; s_X3 <= "10101010"; S_s <= "000"; WAIT FOR 20ns;
 	s_X1 <= "00000011"; s_X2 <= "11001111"; s_X3 <= "10101010"; S_s <= "001"; WAIT FOR 20ns;
+	s_X1 <= "00000011"; s_X2 <= "11001111"; s_X3 <= "10101010"; S_s <= "010"; WAIT FOR 20ns;
+	s_X1 <= "00000011"; s_X2 <= "11001111"; s_X3 <= "10101010"; S_s <= "011"; WAIT FOR 20ns;
+	s_X1 <= "00000011"; s_X2 <= "11001111"; s_X3 <= "10101010"; S_s <= "100"; WAIT FOR 20ns;
+	s_X1 <= "00000011"; s_X2 <= "11001111"; s_X3 <= "10101010"; S_s <= "101"; WAIT FOR 20ns;
+	s_X1 <= "00000011"; s_X2 <= "11001111"; s_X3 <= "10101010"; S_s <= "110"; WAIT FOR 20ns;
 	
 	WAIT;
   END PROCESS;
@@ -42,7 +48,13 @@ BEGIN
   verif: PROCESS
     BEGIN 
       WAIT FOR 10ns;
-		ASSERT(s_Y1 = "00000011" AND s_Y2 = "10101010") REPORT "GRESKA 1" SEVERITY error; WAIT FOR 20ns; --1
+		    ASSERT(s_Y1 = "00000011" AND s_Y2 = "11001111") REPORT "GRESKA 1" SEVERITY error; WAIT FOR 20ns; --1
+		    ASSERT(s_Y1 = "00000011" AND s_Y2 = "10101010") REPORT "GRESKA 2" SEVERITY error; WAIT FOR 20ns; --2
+		    ASSERT(s_Y1 = "11001111" AND s_Y2 = "00000011") REPORT "GRESKA 3" SEVERITY error; WAIT FOR 20ns; --3
+		    ASSERT(s_Y1 = "11001111" AND s_Y2 = "10101010") REPORT "GRESKA 4" SEVERITY error; WAIT FOR 20ns; --4
+		    ASSERT(s_Y1 = "10101010" AND s_Y2 = "00000011") REPORT "GRESKA 5" SEVERITY error; WAIT FOR 20ns; --5
+		    ASSERT(s_Y1 = "10101010" AND s_Y2 = "11001111") REPORT "GRESKA 6" SEVERITY error; WAIT FOR 20ns; --6
+		    ASSERT(s_Y1 = "ZZZZZZZZ" AND s_Y2 = "ZZZZZZZZ") REPORT "GRESKA 7" SEVERITY error; WAIT FOR 20ns; --7
 		WAIT;
     END PROCESS;
   END ARCHITECTURE;

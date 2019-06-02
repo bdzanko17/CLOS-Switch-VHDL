@@ -33,9 +33,12 @@ BEGIN
   );
   stim: PROCESS
   BEGIN
-
-	--Provjera X na U i Y na V  
+  
 	s_X1 <= "00000000"; s_X2 <= "11111111"; S_s <= "000"; WAIT FOR 20ns;
+	s_X1 <= "00000000"; s_X2 <= "11111111"; S_s <= "001"; WAIT FOR 20ns;
+	s_X1 <= "00000000"; s_X2 <= "11111111"; S_s <= "010"; WAIT FOR 20ns;
+	s_X1 <= "00000000"; s_X2 <= "11111111"; S_s <= "011"; WAIT FOR 20ns;
+	s_X1 <= "00000000"; s_X2 <= "11111111"; S_s <= "100"; WAIT FOR 20ns;
 	
 	WAIT;
   END PROCESS;
@@ -43,7 +46,13 @@ BEGIN
   verif: PROCESS
     BEGIN 
       WAIT FOR 10ns;
-		ASSERT(s_Y1 = "00000000" AND s_Y2 = "11111111" AND s_Y3 = HighImpedance) REPORT "GRESKA 1" SEVERITY error; WAIT FOR 20ns; --1
+		
+		ASSERT(s_Y1 = "00000000" AND s_Y3 = "11111111" AND s_Y3 = HighImpedance) REPORT "GRESKA 1" SEVERITY error; WAIT FOR 20ns; --1
+		ASSERT(s_Y1 = "00000000" AND s_Y3 = "11111111" AND s_Y2 = HighImpedance) REPORT "GRESKA 1" SEVERITY error; WAIT FOR 20ns; --1
+		ASSERT(s_Y2 = "00000000" AND s_Y1 = "11111111" AND s_Y3 = HighImpedance) REPORT "GRESKA 1" SEVERITY error; WAIT FOR 20ns; --1
+		ASSERT(s_Y2 = "00000000" AND s_Y3 = "11111111" AND s_Y1 = HighImpedance) REPORT "GRESKA 1" SEVERITY error; WAIT FOR 20ns; --1
+		ASSERT(s_Y2 = "00000000" AND s_Y3 = "11111111" AND s_Y1 = HighImpedance) REPORT "GRESKA 1" SEVERITY error; WAIT FOR 20ns; --1
+
 		WAIT;
     END PROCESS;
   END ARCHITECTURE;

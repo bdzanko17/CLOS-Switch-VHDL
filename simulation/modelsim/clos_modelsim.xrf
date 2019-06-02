@@ -1,4 +1,6 @@
 vendor_name = ModelSim
+source_file = 1, C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd
+source_file = 1, C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd
 source_file = 1, C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd
 source_file = 1, C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd
 source_file = 1, C:/Users/njobs/Desktop/PROJEKT/clos.vhd

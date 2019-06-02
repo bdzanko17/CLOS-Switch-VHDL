@@ -1,5 +1,4 @@
 # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
-# ERROR: No extended dataflow license exists
 # do clos_run_msim_rtl_vhdl.do 
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -44,101 +43,58 @@
 # -- Compiling entity switch_3x2
 # -- Compiling architecture arch_switch_3x2 of switch_3x2
 # 
-vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd
 # Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity clos_testbench
-# -- Compiling architecture arch_clos_testbench of clos_testbench
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(61): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(65): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(111): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(117): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(118): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(119): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(121): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(126): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(127): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(129): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(130): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(132): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(133): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/clos_testbench.vhd(134): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-vsim rtl_work.clos_testbench
-# vsim rtl_work.clos_testbench 
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading rtl_work.clos_testbench(arch_clos_testbench)
-# Loading rtl_work.clos(arch_clos)
-# Loading rtl_work.switch_2x3(arch_switch_2x3)
-# Loading rtl_work.switch_2x2(arch_switch_2x2)
-# Loading rtl_work.switch_3x2(arch_switch_3x2)
-run
-add wave -position end  sim:/clos_testbench/s_C11
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-# 
-#           File in use by: njobs  Hostname: DESKTOP-S8VCI0F  ProcessID: 7768
-# 
-#           Attempting to use alternate WLF file "./wlftsm0rg4".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-# 
-#           Using alternate file: ./wlftsm0rg4
-# 
-add wave -position end  sim:/clos_testbench/s_C11
-add wave -position end  sim:/clos_testbench/s_C12
-add wave -position end  sim:/clos_testbench/s_C21
-add wave -position end  sim:/clos_testbench/s_C22
-add wave -position end  sim:/clos_testbench/s_C23
-add wave -position end  sim:/clos_testbench/s_C31
-add wave -position end  sim:/clos_testbench/s_C32
-add wave -position end  sim:/clos_testbench/s_X1
-add wave -position end  sim:/clos_testbench/s_X2
-add wave -position end  sim:/clos_testbench/s_X3
-add wave -position end  sim:/clos_testbench/s_X4
-add wave -position end  sim:/clos_testbench/s_Y1
-add wave -position end  sim:/clos_testbench/s_Y2
-add wave -position end  sim:/clos_testbench/s_Y3
-add wave -position end  sim:/clos_testbench/s_Y4
-run
-run
-restart -f
-run
+# -- Compiling entity switch_2x3_testbench
+# -- Compiling architecture arch_switch_2x3_testbench_testbench of switch_2x3_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_3x2_testbench
+# -- Compiling architecture arch_switch_3x2_testbench of switch_3x2_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_2x2_testbench
+# -- Compiling architecture arch_switch_2x2_testbench of switch_2x2_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
